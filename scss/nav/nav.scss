@@ -1,0 +1,57 @@
+nav {
+    position: sticky;
+    top: 0;
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    border-bottom: 2px solid white;
+    z-index: 11;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    .logo {}
+    .links {
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .pipe {
+            color: #79ADDC;
+        }
+        .hamburger {
+            visibility: hidden;
+            height: 0;
+            width: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    nav {
+        position: relative;
+        width: 100%;
+        .links {
+            a {
+                visibility: hidden;
+            }
+            .pipe {
+                visibility: hidden;
+            }
+            .hamburger {
+                margin-right: 100px;
+                visibility: visible;
+                height: 50px;
+                width: 50px;
+                img {
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
