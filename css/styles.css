@@ -44,10 +44,10 @@ h6 {
 
 .title-span {
   font-family: sans-serif;
-  margin-left: 150px;
   max-width: 980px;
-  margin-right: 150px;
+  margin: 0 auto;
   margin-bottom: 107px;
+  width: 80%;
 }
 .title-span h1 {
   font-size: 60px;
@@ -541,6 +541,11 @@ footer .socials {
           justify-content: center;
 }
 
+@media only screen and (max-width: 676px) {
+  footer {
+    font-size: 10px;
+  }
+}
 .about {
   width: 100%;
   margin-top: 109px;
