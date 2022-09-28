@@ -4,7 +4,7 @@ nav {
     max-width: 80%;
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 75px;
     align-items: center;
     border-bottom: 2px solid white;
     z-index: 11;
@@ -29,6 +29,16 @@ nav {
             width: 0;
         }
     }
+}
+
+.dark {
+    color: black;
+    .links {
+        a {
+            color: black;
+        }
+    }
+    border-bottom: 2px solid black;
 }
 
 @media only screen and (max-width: 650px) {
