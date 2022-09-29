@@ -40,6 +40,8 @@ h6 {
   background-color: #79ADDC;
   padding: 11px 22px;
   border-radius: 50px;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
 
 .title-span {
@@ -843,4 +845,257 @@ footer .socials {
   font-family: sans-serif;
   font-size: 60px;
   letter-spacing: 1.5px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.contact .map {
+  width: 400px;
+}
+.contact .map .map-image {
+  width: 100%;
+  height: 442px;
+  margin-bottom: 34px;
+  overflow: hidden;
+}
+.contact .map .map-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.contact .map .map-address {
+  width: 100%;
+  height: 161px;
+}
+.contact .map .map-address pre {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  line-height: 23px;
+  letter-spacing: 1.5px;
+}
+.contact .contact-form {
+  width: 529px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.contact .contact-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+.contact .contact-form form input {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 21px;
+  padding-left: 20px;
+  border: none;
+}
+.contact .contact-form form #message {
+  height: 529px;
+}
+.contact .contact-form form button {
+  width: 167px;
+  height: 60px;
+  margin: 0 auto;
+  background-color: #79ADDC;
+  border: NONE;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16;
+}
+
+.title {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 64.5px;
+}
+.title h1 {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 9.5px;
+}
+.title .underline {
+  border-bottom: 2px solid black;
+  width: 159px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact .map {
+    margin: 20px auto;
+  }
+}
+.special-offers {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 35.5px;
+}
+.special-offers .offer {
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.special-offers .offer .image {
+  width: 199px;
+  height: 287px;
+}
+.special-offers .offer .image img {
+  height: 100%;
+  width: 100%;
+}
+.special-offers .offer .offer-text {
+  margin-left: 20px;
+}
+.special-offers .offer .offer-text h2 {
+  width: 335px;
+  font-weight: 200;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 7.5px;
+}
+.special-offers .offer .offer-text .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.special-offers .offer .offer-text .group .underline {
+  width: 196px;
+  border-top: 2px solid black;
+}
+.special-offers .offer .offer-text .group h3 {
+  color: #FF7D38;
+  font-weight: 200;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 20.5px;
+  letter-spacing: 1.5px;
+}
+.special-offers .offer .offer-text .description {
+  width: 290px;
+}
+.special-offers .offer .offer-text .description p {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+.special-offers .offer .offer-text .learn-more {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.blog {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 31px;
+}
+.blog .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.blog .post .calendar {
+  width: 60px;
+  height: 60px;
+  background-color: #79ADDC;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+.blog .post .calendar .date {
+  font-weight: bold;
+  font-size: 22px;
+}
+.blog .post .calendar .month {
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-weight: 200;
+}
+.blog .post .image-text {
+  margin-left: 20px;
+}
+.blog .post .image-text .image {
+  height: 259px;
+  max-width: 900px;
+  margin-bottom: 20px;
+}
+.blog .post .image-text .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.blog .post .image-text .text .black {
+  margin-bottom: 11px;
+  max-width: 245px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.blog .post .image-text .text .blue {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  color: #79ADDC;
+  max-width: 380px;
+}
+
+@media only screen and (max-width: 1950px) {
+  .blog .post .calendar {
+    margin-bottom: 20px;
+  }
 }
