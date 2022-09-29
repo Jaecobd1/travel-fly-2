@@ -8,6 +8,7 @@ Added about page. (responsive):
 https://in-info-web4.informatics.iupui.edu/~jdobler/homework-five/
 ## About Page:
 https://in-info-web4.informatics.iupui.edu/~jdobler/homework-five/about.html
+![Travel Fly About Page preview](/images/screenshot.png "Travel Fly")
 
 # Travel Fly Website V4
 Added Tours page & Each Tour Page.
@@ -42,5 +43,6 @@ https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/blog.html
 ###Special Offers Page:
 https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/special-offers.html
 
+![Travel Fly About Page preview](/images/screenshot-blog.png "Travel Fly")
 
-![Travel Fly About Page preview](/images/screenshot.png "Travel Fly")
+
