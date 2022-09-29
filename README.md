@@ -6,8 +6,37 @@ https://in-info-web4.informatics.iupui.edu/~jdobler/homework-four/
 # Travel Fly Website V3
 Added about page. (responsive):
 https://in-info-web4.informatics.iupui.edu/~jdobler/homework-five/
-
 ## About Page:
 https://in-info-web4.informatics.iupui.edu/~jdobler/homework-five/about.html
+
+# Travel Fly Website V4
+Added Tours page & Each Tour Page.
+https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/
+## Tour Page: 
+https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/tours.html
+### Australia
+https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/australia.html
+### Canada
+https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/canada.html
+### Egypt
+https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/egypt.html
+### Israel
+https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/israel.html
+### Japan
+https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/japan.html
+### New Zealand
+https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/new-zealand.html
+### UAE
+https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/uae.html
+### USA
+https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/usa.html
+
+
+
+
+
+
+
+
 
 ![Travel Fly About Page preview](/images/screenshot.png "Travel Fly")
