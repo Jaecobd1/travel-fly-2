@@ -33,16 +33,18 @@ https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/uae.html
 https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/usa.html
 
 
-#Travel Fly Website V5
+# Travel Fly Website V5
 Added Blog page and Special Offers Page.
 ##Homepage:
 https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/
 
-###Blog Page:
+### Blog Page:
 https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/blog.html
-###Special Offers Page:
+![Travel Fly Blog Page preview](/images/screenshot-blog.png "Travel Fly")
+
+### Special Offers Page:
 https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/special-offers.html
 
-![Travel Fly About Page preview](/images/screenshot-blog.png "Travel Fly")
+![Travel Fly Blog Page preview](/images/screenshot-blog.png "Travel Fly")
 
 
