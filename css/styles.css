@@ -112,17 +112,6 @@ h6 {
   letter-spacing: 1.5px;
 }
 
-@media only screen and (max-width: 676px) {
-  .image-text-container {
-    display: block;
-  }
-  .image-text-container .image {
-    margin-bottom: 20px;
-  }
-  .image-text-container .quote blockquote q {
-    margin-bottom: 40px;
-  }
-}
 .title {
   text-transform: uppercase;
 }
@@ -140,6 +129,217 @@ h6 {
   margin-bottom: 36.5px;
 }
 
+.holder {
+  position: relative;
+  width: 236px;
+  height: 304px;
+  background-color: darkblue;
+}
+.holder .image {
+  width: 100%;
+  height: 100%;
+}
+.holder .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.holder .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: white;
+  font-family: sans-serif;
+}
+.holder .overlay .text {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.holder .overlay .text h1 {
+  margin-top: 50px;
+  font-size: 60px;
+  font-weight: 200;
+}
+.holder .overlay .text h2 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.hero-container {
+  margin-top: 48.5px;
+  height: 413px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero-container .image {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero-container .image img {
+  height: 100%;
+  width: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 29px;
+}
+.hero-container .overlay {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  height: 100%;
+}
+.hero-container .overlay h1 {
+  margin-top: 42px;
+  margin-left: 30px;
+  color: white;
+  font-weight: 300;
+  font-family: sans-serif;
+  font-size: 80px;
+}
+.hero-container .overlay p {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.image-container {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.image-container .image {
+  width: 298px;
+  height: 347px;
+  overflow: hidden;
+}
+.image-container .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 5px;
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+.image-container .image:hover img {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -o-object-position: center;
+     object-position: center;
+}
+
+.days {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 29px;
+}
+.days .day {
+  margin-bottom: 89px;
+}
+.days .day h2 {
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+}
+.days .day p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  max-width: 980px;
+}
+.days .day .underline {
+  border-bottom: 2px solid black;
+  width: 171px;
+  margin-bottom: 36.5px;
+}
+.days a {
+  border-radius: 0%;
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 700px) {
+  .image-text-container {
+    display: block;
+  }
+  .image-text-container .image {
+    margin-bottom: 20px;
+  }
+  .image-text-container .quote blockquote q {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .image-container {
+    margin-top: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .image-container img {
+    margin-bottom: 20px;
+  }
+
+  .hero-container .overlay h1 {
+    font-size: 40px;
+  }
+  .hero-container .overlay p {
+    font-size: 16px;
+  }
+}
 nav {
   position: sticky;
   top: 0;
@@ -566,5 +766,81 @@ footer .socials {
   letter-spacing: 1.5px;
 }
 .about .title-span p {
+  letter-spacing: 1.5px;
+}
+
+.tours {
+  position: relative;
+  max-width: 980px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 100px;
+  padding: 20px;
+}
+.tours .holder {
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .tours {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+.banner {
+  position: relative;
+  max-width: 981px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.banner .image {
+  position: absolute;
+  max-width: 981px;
+  height: 200px;
+  margin: 0 auto;
+}
+.banner .image img {
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.banner .overlay {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.6);
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.banner .overlay h1 {
+  font-family: sans-serif;
+  font-size: 60px;
   letter-spacing: 1.5px;
 }
