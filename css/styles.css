@@ -811,7 +811,7 @@ footer .socials {
 }
 .banner .image {
   position: absolute;
-  max-width: 981px;
+  width: 981px;
   height: 200px;
   margin: 0 auto;
 }
