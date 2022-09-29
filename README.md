@@ -40,7 +40,7 @@ https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/
 
 ### Blog Page:
 https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/blog.html
-![Travel Fly Blog Page preview](/images/screenshot-blog.png "Travel Fly")
+![Travel Fly Special Offers preview](/images/screenshot-special-offers.png "Travel Fly")
 
 ### Special Offers Page:
 https://in-info-web4.informatics.iupui.edu/~jdobler/homework-six/special-offers.html
