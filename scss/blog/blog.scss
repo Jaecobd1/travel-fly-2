@@ -6,6 +6,7 @@
         display: flex;
         margin-bottom: 100px;
         flex-wrap: wrap;
+        max-width: 980;
         .calendar {
             width: 60px;
             height: 60px;
@@ -30,13 +31,17 @@
         }
         .image-text {
             margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
             .image {
                 height: 259px;
                 max-width: 900px;
                 margin-bottom: 20px;
+                background-color: green;
                 img {
                     width: 100%;
-                    height: 100%;
+                    height: 259px;
                     object-fit: cover;
                     object-position: center;
                 }
