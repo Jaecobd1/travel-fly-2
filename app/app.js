@@ -1,19 +1,17 @@
 function initListeners() {
-    // $("nav .links a").click(function(e) {
-    //     let btnId = e.currentTarget.id;
-    //     console.log("click" + btnId);
-    //     MODEL.changePageContent(btnId);
-    // })
     $("a").click(function(e) {
         let btnId = e.currentTarget.id;
         console.log("clicked " + btnId);
         MODEL.changePageContent(btnId);
     })
+
 }
+
 
 $(document).ready(function() {
     initListeners();
     MODEL.changePageContent("home");
+    appListener();
 })
 
 function route() {

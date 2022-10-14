@@ -20,7 +20,7 @@ Fugiat aliquid minus nemo sed est.</i>
                             <h1>ISRAEL</h1>
                             <h2>from $1000</h2>
                         </div>
-                        <div class="learn-more"><a href="./israel.html">Learn More</a></div>
+                        <div class="learn-more"><a href="#" id="israel">Learn More</a></div>
                     </div>
                 </div>
                 <div class="holder">
@@ -30,7 +30,7 @@ Fugiat aliquid minus nemo sed est.</i>
                             <h1>U.S.A</h1>
                             <h2>from $1500</h2>
                         </div>
-                        <div class="learn-more"><a href="./usa.html">Learn More</a></div>
+                        <div class="learn-more"><a href="#" id="usa">Learn More</a></div>
                     </div>
                 </div>
                 <div class="holder">
@@ -40,7 +40,7 @@ Fugiat aliquid minus nemo sed est.</i>
                             <h1>Australia</h1>
                             <h2>from $1800</h2>
                         </div>
-                        <div class="learn-more"><a href="./australia.html">Learn More</a></div>
+                        <div class="learn-more"><a href="#" id="australia">Learn More</a></div>
                     </div>
                 </div>
             </section>
@@ -153,7 +153,7 @@ Fugiat aliquid minus nemo sed est.</i>
                 <div class="description">
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
                 </div>
-                <div class="learn-more"><a href="#">Learn More</a></div>
+                <div class="learn-more"><a href="#" id="spain">Learn More</a></div>
             </div>
         </div>
         <div class="offer">
@@ -776,6 +776,20 @@ E-mail: mail@travelfly.org
         </div>
     </section>`;
 
+    function initListeners() {
+        // $("nav .links a").click(function(e) {
+        //     let btnId = e.currentTarget.id;
+        //     console.log("click" + btnId);
+        //     MODEL.changePageContent(btnId);
+        // })
+        $("a").click(function(e) {
+            let btnId = e.currentTarget.id;
+            console.log("clicked " + btnId);
+            MODEL.changePageContent(btnId);
+        })
+
+    }
+
 
     var _changePageContent = function(pageName) {
         let contentName = pageName + "Content";
@@ -789,7 +803,10 @@ E-mail: mail@travelfly.org
             $("#logo").html(`<img src="./images/logo-black.svg" alt="">`)
         }
 
+        initListeners();
+
     }
+
 
     return {
         changePageContent: _changePageContent,
