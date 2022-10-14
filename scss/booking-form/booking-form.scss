@@ -1,89 +1,91 @@
-.booking-form {
-    z-index: 1;
-    font-family: sans-serif;
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    .container {
-        width: 80%;
-        max-width: 1100px;
-        .title {
-            h1 {
-                font-weight: 200;
-                font-family: sans-serif;
-                font-size: 60px;
-            }
-        }
-        form {
-            background-color: #fff;
-            min-height: 100%;
-            margin-bottom: 16px;
-            input {
-                height: 58px;
-                border: 2px solid #79ADDC;
-                padding: 10px;
-                margin: 21px;
-            }
-            #name,
-            #country {
-                width: 344px;
-            }
-            #email,
-            #hotel {
-                width: 453px;
-            }
-            #check-in,
-            #check-out {
-                width: 698px;
-            }
-            select {
-                height: 58px;
-                border: 2px solid #79ADDC;
-                padding: 10px;
-                width: 103px;
-                margin: 21px
-            }
-            .group {
-                display: flex;
-                width: 100%;
-                justify-content: space-around;
-            }
-            .learn-more {
-                a {
-                    width: 100%;
+.home {
+    .booking-form {
+        z-index: 1;
+        font-family: sans-serif;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        .container {
+            width: 80%;
+            max-width: 1100px;
+            .title {
+                h1 {
+                    font-weight: 200;
+                    font-family: sans-serif;
+                    font-size: 60px;
                     text-align: center;
+                }
+            }
+            form {
+                background-color: #fff;
+                min-height: 100%;
+                margin-bottom: 16px;
+                input {
+                    height: 58px;
+                    border: 2px solid #79ADDC;
+                    padding: 10px;
+                    margin: 21px;
+                }
+                #name,
+                #country {
+                    width: 344px;
+                }
+                #email,
+                #hotel {
+                    width: 453px;
+                }
+                #check-in,
+                #check-out {
+                    width: 698px;
+                }
+                select {
+                    height: 58px;
+                    border: 2px solid #79ADDC;
+                    padding: 10px;
+                    width: 103px;
+                    margin: 21px
+                }
+                .group {
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-around;
+                }
+                .learn-more {
+                    a {
+                        width: 100%;
+                        text-align: center;
+                    }
                 }
             }
         }
     }
-}
-
-@media only screen and (max-width: 760px) {
-    .booking-form {
-        width: 100%;
-        .container {
-            form {
-                flex-direction: column;
-                width: 100%;
-                input {
+    @media only screen and (max-width: 760px) {
+        .booking-form {
+            width: 100%;
+            .container {
+                form {
+                    flex-direction: column;
                     width: 100%;
-                }
-                select {
-                    width: 100%;
-                }
-                #name,
-                #country {
-                    width: 100%;
-                }
-                #email,
-                #hotel {
-                    width: 100%;
-                }
-                #check-in,
-                #check-out {
-                    width: 100%;
+                    input {
+                        width: 100%;
+                    }
+                    select {
+                        width: 100%;
+                    }
+                    #name,
+                    #country {
+                        width: 100%;
+                    }
+                    #email,
+                    #hotel {
+                        width: 100%;
+                    }
+                    #check-in,
+                    #check-out {
+                        width: 100%;
+                    }
                 }
             }
         }

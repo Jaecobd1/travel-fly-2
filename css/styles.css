@@ -165,6 +165,7 @@ h6 {
       flex-wrap: wrap;
   color: white;
   font-family: sans-serif;
+  z-index: 11;
 }
 .holder .overlay .text {
   height: 50%;
@@ -422,6 +423,7 @@ nav .links .hamburger {
   z-index: 0;
   overflow: hidden;
   color: white;
+  min-height: 400px;
 }
 .hero img {
   position: absolute;
@@ -602,7 +604,7 @@ nav .links .hamburger {
     margin-bottom: 20px;
   }
 }
-.booking-form {
+.home .booking-form {
   z-index: 1;
   font-family: sans-serif;
   margin: 0 auto;
@@ -615,46 +617,47 @@ nav .links .hamburger {
           justify-content: center;
   position: relative;
 }
-.booking-form .container {
+.home .booking-form .container {
   width: 80%;
   max-width: 1100px;
 }
-.booking-form .container .title h1 {
+.home .booking-form .container .title h1 {
   font-weight: 200;
   font-family: sans-serif;
   font-size: 60px;
+  text-align: center;
 }
-.booking-form .container form {
+.home .booking-form .container form {
   background-color: #fff;
   min-height: 100%;
   margin-bottom: 16px;
 }
-.booking-form .container form input {
+.home .booking-form .container form input {
   height: 58px;
   border: 2px solid #79ADDC;
   padding: 10px;
   margin: 21px;
 }
-.booking-form .container form #name,
-.booking-form .container form #country {
+.home .booking-form .container form #name,
+.home .booking-form .container form #country {
   width: 344px;
 }
-.booking-form .container form #email,
-.booking-form .container form #hotel {
+.home .booking-form .container form #email,
+.home .booking-form .container form #hotel {
   width: 453px;
 }
-.booking-form .container form #check-in,
-.booking-form .container form #check-out {
+.home .booking-form .container form #check-in,
+.home .booking-form .container form #check-out {
   width: 698px;
 }
-.booking-form .container form select {
+.home .booking-form .container form select {
   height: 58px;
   border: 2px solid #79ADDC;
   padding: 10px;
   width: 103px;
   margin: 21px;
 }
-.booking-form .container form .group {
+.home .booking-form .container form .group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -662,41 +665,41 @@ nav .links .hamburger {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-.booking-form .container form .learn-more a {
+.home .booking-form .container form .learn-more a {
   width: 100%;
   text-align: center;
 }
-
 @media only screen and (max-width: 760px) {
-  .booking-form {
+  .home .booking-form {
     width: 100%;
   }
-  .booking-form .container form {
+  .home .booking-form .container form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
   }
-  .booking-form .container form input {
+  .home .booking-form .container form input {
     width: 100%;
   }
-  .booking-form .container form select {
+  .home .booking-form .container form select {
     width: 100%;
   }
-  .booking-form .container form #name,
-.booking-form .container form #country {
+  .home .booking-form .container form #name,
+.home .booking-form .container form #country {
     width: 100%;
   }
-  .booking-form .container form #email,
-.booking-form .container form #hotel {
+  .home .booking-form .container form #email,
+.home .booking-form .container form #hotel {
     width: 100%;
   }
-  .booking-form .container form #check-in,
-.booking-form .container form #check-out {
+  .home .booking-form .container form #check-in,
+.home .booking-form .container form #check-out {
     width: 100%;
   }
 }
+
 footer {
   position: relative;
   bottom: 0;
@@ -739,9 +742,16 @@ footer .socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer .socials svg {
+  height: 23px;
+}
+footer .socials svg path {
+  stroke: #fff;
+  fill: #fff;
 }
 
 @media only screen and (max-width: 676px) {

@@ -23,7 +23,14 @@ footer {
     .socials {
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        svg {
+            height: 23px;
+            path {
+                stroke: #fff;
+                fill: #fff;
+            }
+        }
     }
 }
 
