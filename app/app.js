@@ -11,20 +11,30 @@ function initListeners() {
 $(document).ready(function() {
     initListeners();
     MODEL.changePageContent("home");
-    appListener();
-})
+});
 
-function route() {
-    let hashTag = window.location.hash;
-    let pageName = hashTag.replace("#", "");
-    let pageContent = pageName + "Content";
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+        navigator.serviceWorker
+            .register("/~jdobler/homework-ten/serviceWorker.js")
+            .then(res => console.log("service worker is Registered"))
+            .catch(err => console.log("service worker not registered err:", err))
 
-    if (pageName == "") {
-        pageContent = "homeContent";
-    }
-
-    MODEL.modelPageName(pageContent);
+    });
 }
+
+
+// function route() {
+//     let hashTag = window.location.hash;
+//     let pageName = hashTag.replace("#", "");
+//     let pageContent = pageName + "Content";
+
+//     if (pageName == "") {
+//         pageContent = "homeContent";
+//     }
+
+//     MODEL.modelPageName(pageContent);
+// }
 
 // function initListeners() {
 //     $(window).on("hashchange", route);
