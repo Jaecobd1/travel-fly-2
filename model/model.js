@@ -80,6 +80,9 @@ Fugiat aliquid minus nemo sed est.</i>
                         <option value="3">3</option>
                     </select></div>
                     </div>
+                    <div class="message">
+                        <input type="text" name="message" class="message" placeholder="Message..." />
+                    </div>
                     <div class="learn-more"><a href="#">SUBMIT</a></div>
                 </form>
             </div>

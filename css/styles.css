@@ -616,6 +616,7 @@ nav .links .hamburger {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
+  margin-bottom: 150px;
 }
 .home .booking-form .container {
   width: 80%;
@@ -631,6 +632,15 @@ nav .links .hamburger {
   background-color: #fff;
   min-height: 100%;
   margin-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 .home .booking-form .container form input {
   height: 58px;
@@ -649,6 +659,12 @@ nav .links .hamburger {
 .home .booking-form .container form #check-in,
 .home .booking-form .container form #check-out {
   width: 698px;
+}
+.home .booking-form .container form .message {
+  width: 80vw;
+  max-width: 818px;
+  height: 192px;
+  margin-bottom: 37px;
 }
 .home .booking-form .container form select {
   height: 58px;
@@ -678,25 +694,24 @@ nav .links .hamburger {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 100%;
   }
   .home .booking-form .container form input {
-    width: 100%;
+    width: 80vw;
   }
   .home .booking-form .container form select {
-    width: 100%;
+    width: 80vw;
   }
   .home .booking-form .container form #name,
 .home .booking-form .container form #country {
-    width: 100%;
+    width: 80vw;
   }
   .home .booking-form .container form #email,
 .home .booking-form .container form #hotel {
-    width: 100%;
+    width: 80vw;
   }
   .home .booking-form .container form #check-in,
 .home .booking-form .container form #check-out {
-    width: 100%;
+    width: 80vw;
   }
 }
 
