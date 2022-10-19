@@ -360,7 +360,7 @@ E-mail: mail@travelfly.org
                 <input type="text" name="email" id="email" placeholder="Email Address...">
                 <input type="text" name="company" placeholder="Company..." id="company">
                 <input type="text" name="message" id="message" placeholder="Message...">
-                <button onclick="Submit">Submit</button>
+                <button onclick="Submit">Send Message</button>
             </form>
         </div>
     </section>`;

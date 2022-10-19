@@ -694,6 +694,7 @@ nav .links .hamburger {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 100%;
   }
   .home .booking-form .container form input {
     width: 80vw;
@@ -946,12 +947,12 @@ footer .socials svg path {
 .contact .contact-form form button {
   width: 167px;
   height: 60px;
-  margin: 0 auto;
   background-color: #79ADDC;
   border: NONE;
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 16;
+  text-transform: uppercase;
 }
 
 .title {
@@ -1046,6 +1047,20 @@ footer .socials svg path {
           justify-content: flex-start;
 }
 
+@media only screen and (max-width: 800px) {
+  .special-offers .offer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .special-offers .offer .image {
+    margin-bottom: 26px;
+  }
+}
 .blog {
   width: 80%;
   margin: 0 auto;

@@ -55,3 +55,15 @@
         }
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .special-offers {
+        .offer {
+            flex-direction: column;
+            align-items: center;
+            .image {
+                margin-bottom: 26px;
+            }
+        }
+    }
+}

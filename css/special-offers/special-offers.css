@@ -1,0 +1,73 @@
+.special-offers {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 35.5px;
+}
+.special-offers .offer {
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.special-offers .offer .image {
+  width: 199px;
+  height: 287px;
+}
+.special-offers .offer .image img {
+  height: 100%;
+  width: 100%;
+}
+.special-offers .offer .offer-text {
+  margin-left: 20px;
+}
+.special-offers .offer .offer-text h2 {
+  width: 335px;
+  font-weight: 200;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 7.5px;
+}
+.special-offers .offer .offer-text .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.special-offers .offer .offer-text .group .underline {
+  width: 196px;
+  border-top: 2px solid black;
+}
+.special-offers .offer .offer-text .group h3 {
+  color: #FF7D38;
+  font-weight: 200;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 20.5px;
+  letter-spacing: 1.5px;
+}
+.special-offers .offer .offer-text .description {
+  width: 290px;
+}
+.special-offers .offer .offer-text .description p {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+.special-offers .offer .offer-text .learn-more {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+@media only screen and (max-width: 800px) {
+  .special-offers .offer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: blue;
+  }
+}
